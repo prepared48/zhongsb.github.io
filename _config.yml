@@ -7,7 +7,7 @@
 
 # Site settings
 title: prepared（哥妞）
-brief-intro: I'm prepared !
+brief-intro: 南方哥和北方妞
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://zhongsb.github.io" # the base hostname & protocol for your site
 
