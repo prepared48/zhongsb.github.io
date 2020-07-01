@@ -1,0 +1,138 @@
+---
+layout: post
+
+title:  "【NLP】文本表示之实战"
+
+date:   2020-03-14 15:14:54
+
+categories: 人工智能
+
+tags: AI C#
+
+mathjax: true
+
+---
+
+
+在上一篇文章介绍了文本表示《NLP之文本表示》<https://blog.csdn.net/Prepared/article/details/94864658>
+
+但是没有代码。在这篇博客中，我们在实践一下！
+
+
+
+中文分词常用模型：`Jieba`模型、百度的LAC模型，这里使用 `Jieba` 模型进行中文分词。
+
+数据集使用：人民日报1946年05月的数据。数据集地址：[https://github.com/fangj/rmrb/tree/master/example/1946年05月](https://github.com/fangj/rmrb/tree/master/example/1946%E5%B9%B405%E6%9C%88)
+
+
+
+`Jieba`模型：
+
+`Jieba` 基本上目前最好的 Python 中文分词组件，它主要有以下 3 种特性：
+
+支持 3 种分词模式：
+
+- 精确模式
+  全模式
+  搜索引擎模式
+  支持繁体分词
+  支持自定义词典
+
+
+
+第一步：读取所有文件，形成数据集`corpus`
+
+
+
+```python
+def getCorpus(self, rootDir):
+    corpus = []
+    r1 = u'[a-zA-Z0-9’!"#$%&\'()*+,-./:：;<=>?@，。?★、…【】《》？“”‘’！[\\]^_`{|}~]+'  # 用户也可以在此进行自定义过滤字符
+    for file in os.listdir(rootDir):
+        path  = os.path.join(rootDir, file)
+        if os.path.isfile(path):
+            # 打印文件地址
+            #print(os.path.abspath(path))
+            # 获取文章内容，fromfile主要用来处理数组 pass
+            # filecontext = np.fromfile(os.path.abspath(path))
+            with open(os.path.abspath(path), "r", encoding='utf-8') as file:
+                filecontext = file.read();
+                #print(filecontext)
+                # 分词 去掉符号
+                filecontext = re.sub(r1, '', filecontext)
+                filecontext = filecontext.replace("\n", '')
+                filecontext = filecontext.replace(" ", '')
+                seg_list = jieba.lcut_for_search(filecontext)
+                corpus += seg_list
+                #print(seg_list)
+                #print("[精确模式]：" + "/".join(seg_list))
+        elif os.path.isdir(path):
+            TraversalFun.AllFiles(self, path)
+    return corpus
+```
+
+
+
+1、循环读取文件夹下的文件；
+
+2、使用`numpy`读取文件获取文件内容；
+
+3、去掉特殊符号，获取中文内容；
+
+4、使用`Jieba`分词进行分词，大家可以尝试各种方式。
+
+第二步：计算信息熵
+
+信息熵的公式：
+
+![img](https://pic4.zhimg.com/v2-a9f081eff039a7e65f51515d4aacb34b_b.png)
+
+```
+#构造词典，统计每个词的频率，并计算信息熵
+def calc_tf(corpus):
+    #   统计每个词出现的频率
+    word_freq_dict = dict()
+    for word in corpus:
+        if word not in word_freq_dict:
+            word_freq_dict[word] = 1
+        word_freq_dict[word] += 1
+    # 将这个词典中的词，按照出现次数排序，出现次数越高，排序越靠前
+    word_freq_dict = sorted(word_freq_dict.items(), key=lambda x:x[1], reverse=True)
+    # 计算TF概率
+    word_tf = dict()
+    # 信息熵
+    shannoEnt = 0.0
+    # 按照频率，从高到低，开始遍历，并未每个词构造一个id
+    for word, freq in word_freq_dict:
+        # 计算p(xi)
+        prob = freq / len(corpus)
+        word_tf[word] = prob
+        shannoEnt -= prob*log(prob, 2)
+    return word_tf, shannoEnt
+```
+
+思路：
+
+1、循环，计算每个词的频率，循环一个词，如果有则加1，没有则等于1
+
+2、计算信息熵：按照公式循环计算信息熵。
+
+
+
+结果：
+
+> 数据集大小，size: 163039
+
+> 信息熵：14.047837802885464
+
+
+
+大家快动手尝试一下吧
+
+
+
+前路遥遥，大家加油~ 公众号【prepared】
+
+`Jieba`模型：https://github.com/fxsjy/jieba
+
+源码地址：https://github.com/zhongsb/NLP-learning.git
