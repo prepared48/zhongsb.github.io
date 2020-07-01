@@ -7,6 +7,8 @@ tags: AI C#
 mathjax: true
 ---
 
+* content
+{:toc}
 
 pip 指定某个路径安装包
 
