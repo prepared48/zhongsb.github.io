@@ -34,6 +34,10 @@ layout: default
         {{content}}
         </article>
         <hr>
+		
+		{% include pay.html %}
+		
+		<hr>
 
         {% assign hasSimilar = '' %}
         {% for post in site.related_posts %}
