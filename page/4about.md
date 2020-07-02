@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于我
+title: 关于我们
 permalink: /about/
 icon: heart
 type: page
@@ -9,8 +9,14 @@ type: page
 * content
 {:toc}
 
+# 这里是妞
 
+**不要担心你的钱财，担心你的学识！**
 
+* 2015.09-2018.07 北京交通大学 硕士 交通安全工程
+* 2011-2015 上海海事大学 本科	交通
+
+# 这里是哥
 
 **不要担心你的钱财，担心你的学识！**
 
@@ -19,7 +25,7 @@ type: page
 * 2015-2018 webyun
 * 2010-2014 上海大学 本科 信息管理与信息系统
 
-## 联系我
+## 联系我们
 
 * GitHub：[prepared](https://github.com/zhongsb)
 * email：z20107824@163.com
