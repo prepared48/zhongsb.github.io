@@ -3,7 +3,7 @@ layout: post
 title:  "python基础—pip指定安装目录"
 date:   2020-06-09 15:14:54
 categories: 人工智能
-tags: AI C#
+tags: python
 mathjax: true
 ---
 
