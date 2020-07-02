@@ -27,6 +27,8 @@ type: page
 
 ## 联系我们
 
+![](../images/WeChat account.jpg)
+
 * GitHub：[prepared](https://github.com/zhongsb)
 * email：z20107824@163.com
 * [CSDN](https://blog.csdn.net/Prepared)
