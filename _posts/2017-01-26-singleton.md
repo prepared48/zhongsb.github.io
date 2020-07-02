@@ -44,8 +44,11 @@ tags: java
 
 getInstance()方法两个线程同时进行判断，都为空；然后两个线程都会创建对象。  
 
-![多线程问题][https://github.com/zhongsb/zhongsb.github.io/blob/master/images/singelton.jpg] 
- 
+![多线程问题](https://github.com/zhongsb/zhongsb.github.io/blob/master/images/singelton.jpg])
+
+
+![多线程问题](/images/singelton.jpg])
+
 2）处理多线程－－加锁
 
     public class Singleton{  
