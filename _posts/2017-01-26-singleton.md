@@ -3,6 +3,7 @@ layout: post
 title: 设计模式之单例模式深度解析
 category: 技术
 comments: true
+tags: java
 ---
 
 单例模式是一种常用的软件设计模式。在它的核心结构中只包含一个被称为单例的特殊类。通过单例模式可以保证系统中一个类只有一个实例
