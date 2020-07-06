@@ -7,7 +7,8 @@ tags: 微服务
 mathjax: true
 ---
 
-@[TOC](springboot集成MongoDB)
+* content
+{:toc}
 
 思路：
 
