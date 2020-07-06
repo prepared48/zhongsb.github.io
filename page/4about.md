@@ -1,18 +1,4 @@
----
-layout: page
-title: 关于我们
-permalink: /about/
-icon: heart
-type: page
----
 
-* content
-{:toc}
-
-
-
-
-关于我们
 
 <object width="340" height="86" data="http://music.163.com/style/swf/widget.swf?
 sid=425100599&type=2&auto=1&width=320&height=66" 
@@ -26,8 +12,6 @@ type="application/x-shockwave-flash"></object>
 
 # 这里是哥
 
-
-**不要担心你的钱财，担心你的学识！**
 
 * 2018.06-至今 ehualu
 * 2018.09-至今 北京航空航天大学 硕士 人工智能
