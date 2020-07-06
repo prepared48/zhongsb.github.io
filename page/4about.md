@@ -9,9 +9,17 @@ type: page
 * content
 {:toc}
 
+
+
+
+关于我们
+
+<object width="340" height="86" data="http://music.163.com/style/swf/widget.swf?
+sid=425100599&type=2&auto=1&width=320&height=66" 
+type="application/x-shockwave-flash"></object> 
+
+
 # 这里是妞
-
-
 
 * 2015.09-2018.07 北京交通大学 硕士 交通安全工程
 * 2011-2015 上海海事大学 本科	交通
