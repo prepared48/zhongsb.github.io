@@ -12,7 +12,7 @@ type: page
 
 
 
-关于我们
+
 
 <object width="340" height="86" data="http://music.163.com/style/swf/widget.swf?
 sid=425100599&type=2&auto=1&width=320&height=66" 
