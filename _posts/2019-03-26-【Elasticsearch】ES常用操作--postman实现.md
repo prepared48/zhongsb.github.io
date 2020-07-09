@@ -2,7 +2,7 @@
 layout: post
 title:  "Elasticsearch | ES常用操作--postman实现"
 date:   2019-03-26 08:00:43 
-categories: ES
+categories: 大数据
 tags: ES
 mathjax: true
 ---
