@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 设计模式之单例模式深度解析
-category: 技术
+category: java
 comments: true
 tags: java
 ---
