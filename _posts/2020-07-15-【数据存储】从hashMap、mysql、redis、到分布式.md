@@ -31,7 +31,7 @@ X 计算hash值。 hashcode % 2500
 
 HashMap 或者 HashTable 的原理。
 
-![image](5854BF510A4F44FF9382C4767F2A9195)
+![image](/images/data-1.png)
 
 优化后的查找过程：计算X的hash值，查找索引（左侧），定位X的大致位置，根据索引查找小数组。一定比全量IO快。
 
@@ -51,7 +51,7 @@ HashMap 或者 HashTable 的原理。
 
 2. 为什么快？谁快？谁慢？
 
-![image](DE18C99E2B4A484394016C73CDE94864)
+![image](/images/data-2.png)
 
 总结：
 
@@ -63,7 +63,7 @@ HashMap 或者 HashTable 的原理。
 
 HDFS block 大小。应该设置符合机器性能，不应该设置太大。
 
-![image](DA2D69140FE148E8A56CD98AFAB1F3BB)
+![image](/images/data-3.png)
 
 二级索引的作用：避免全量IO（全量遍历索引）的过程。
 
@@ -95,7 +95,7 @@ redis value有类型，每种类型有本地方法。
 
 秒杀场景，一定要用redis。语境：高并发。
 
-![image](54A83B17AB06454999CEBFE76784A395)
+![image](/images/data-4.png)
 
 四层LVS 或者 7层Ngnix反向代理
 
