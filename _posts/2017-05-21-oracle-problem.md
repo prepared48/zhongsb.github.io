@@ -2,8 +2,8 @@
 layout: post
 title:  "ORACLE一次大量数据删除导致问题的处理"
 date:   2017-05-21 00:00:00
-categories: oracle
-tags: oracle
+categories: 数据库
+tags: 数据库
 mathjax: true
 ---
 
