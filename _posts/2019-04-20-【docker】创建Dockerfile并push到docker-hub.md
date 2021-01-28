@@ -2,8 +2,8 @@
 layout: post
 title:  "【docker】创建Dockerfile并push到docker-hub"
 date:   2019-04-20 10:31:35
-categories: docker
-tags: docker
+categories: 大数据
+tags: 大数据
 mathjax: true
 ---
 
