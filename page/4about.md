@@ -38,7 +38,7 @@ type="application/x-shockwave-flash"></object>
 
 ![](/images/WeChat account.jpg)
 
-* GitHub：[prepared](https://github.com/zhongsb)
+* GitHub：[prepared](https://github.com/prepared48)
 * email：z20107824@163.com
 * [CSDN](https://blog.csdn.net/Prepared)
 * [segmentfault](https://segmentfault.com/u/prepared)
