@@ -9,7 +9,7 @@
 title: 哥妞
 brief-intro: 海淀山后有哥妞
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://zhongsb.github.io" # the base hostname & protocol for your site
+url: "https://geniu.net" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
