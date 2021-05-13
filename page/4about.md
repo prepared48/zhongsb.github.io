@@ -34,4 +34,4 @@ type="application/x-shockwave-flash"></object>
 
 ## 评论
 
-{% include valine.html %}
+{% include gitalk-bak.html %}
