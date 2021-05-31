@@ -16,12 +16,7 @@ sid=425100599&type=2&auto=1&width=320&height=66"
 type="application/x-shockwave-flash"></object> 
 
 
-
-* 2020.10-至今 轻松筹
-* 2018.09-2021.01 北京航空航天大学 硕士 软件工程
-* 2018.06-2020.10 ehualu
-* 2015-2018 webyun
-* 2010-2014 上海大学 本科 信息管理与信息系统
+山有木兮 我有你: https://mp.weixin.qq.com/s/78jxSIavWL7nwzAm-KON4w
 
 ## 联系我们
 
