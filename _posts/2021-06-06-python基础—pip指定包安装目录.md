@@ -2,8 +2,8 @@
 layout: post
 title:  "python基础—pip指定包安装目录"
 date:   2021-06-06 09:11:54
-categories: Python 
-tags: Python 
+categories: 日常 
+tags: Python pip 包安装
 mathjax: true
 ---
 
