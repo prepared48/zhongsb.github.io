@@ -3,7 +3,7 @@ layout: post
 title:  "JAVA面试题之四——Redis 中的缓存清空策略 LRU 说一下？"
 date:   2020-07-30 06:47:54
 categories: 面试
-tags: JAVA Redis
+tags: Java Redis
 mathjax: true
 ---
 

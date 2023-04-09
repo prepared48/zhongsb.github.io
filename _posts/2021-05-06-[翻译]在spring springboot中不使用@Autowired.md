@@ -2,7 +2,7 @@
 layout: post
 title:  "[翻译]在spring/springboot中不使用@Autowired"
 date:   2021-05-06 11:27:54
-categories: JAVA SpringBoot
+categories: Java SpringBoot
 tags: SpringBoot Spring
 mathjax: true
 ---

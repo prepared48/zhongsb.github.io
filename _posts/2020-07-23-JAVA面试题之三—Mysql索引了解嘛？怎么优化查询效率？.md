@@ -3,7 +3,7 @@ layout: post
 title:  "JAVA面试题之三—Mysql索引了解嘛？怎么优化查询效率？"
 date:   2020-07-23 08:14:54
 categories: 面试
-tags: JAVA 数据库
+tags: Java 数据库
 mathjax: true
 ---
 

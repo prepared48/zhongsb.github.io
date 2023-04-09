@@ -2,8 +2,8 @@
 layout: post
 title:  "《深入分析javaweb技术内幕》之一——SpringMVC的工作机制与设计模式"
 date:   2017-07-07 00:00:00
-categories: JAVA
-tags: JAVA
+categories: Java
+tags: Java
 mathjax: true
 ---
 

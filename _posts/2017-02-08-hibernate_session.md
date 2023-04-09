@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 持久化的三种状态
-category: JAVA
-tags: JAVA
+category: Java
+tags: Java
 comments: true
 ---
 
