@@ -2,7 +2,7 @@
 layout: post
 title:  "一次面试"
 date:  2016-11-28 15:14:54
-categories: 工作
+categories: 日常
 tags: Interview
 mathjax: true
 ---

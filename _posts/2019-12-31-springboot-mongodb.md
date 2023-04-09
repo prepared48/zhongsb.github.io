@@ -2,8 +2,8 @@
 layout: post
 title:  "springboot集成MongoDB"
 date:   2019-12-31 15:14:54
-categories: 微服务
-tags: 微服务
+categories: Java SpringBoot
+tags: 微服务 MongoDB
 mathjax: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "[翻译]Spring Boot 中的测试"
 date:   2021-06-04 09:11:54
-categories: JAVA 测试
+categories: JAVA SpringBoot
 tags: JAVA 测试 SpringBoot
 mathjax: true
 ---

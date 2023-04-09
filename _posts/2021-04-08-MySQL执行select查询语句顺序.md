@@ -2,7 +2,7 @@
 layout: post
 title:  "MySQL执行select查询语句顺序"
 date:   2021-04-08 13:27:54
-categories: 数据库 MySQL
+categories: 数据库
 tags: MySQL 数据库
 mathjax: true
 ---

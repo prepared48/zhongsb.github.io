@@ -2,7 +2,7 @@
 layout: post
 title:  "阿里巴巴需要什么样的技术人员"
 date:   2016-10-24 15:14:54
-categories: 工作
+categories: 日常
 tags: jd
 mathjax: true
 ---
