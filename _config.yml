@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 哥妞
-brief-intro: 海淀山后有哥妞
+title: 六七十三
+brief-intro: 海淀山后Java哥
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://prepared.fun" # the base hostname & protocol for your site
 
@@ -26,7 +26,7 @@ description_footer: 这里记录了我从JAVA菜鸟，变身成为技术大神�
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 #duoshuo_shortname: #hygblog
-disqus_shortname: 哥妞
+disqus_shortname: 六七十三
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
