@@ -15,6 +15,9 @@ mathjax: true
 我们将带你学习如何以可测试的方式创建Spring Bean实例，然后讨论如何使用`Mockito`和`AssertJ`，这两个包在Spring Boot中都为了测试默认引用了。
 
 
+
+
+
 原文地址：https://reflectoring.io/unit-testing-spring-boot/
 
 编写好的单元测试可以被看成一个很难掌握的艺术。但好消息是支持单元测试的机制很容易学习。
