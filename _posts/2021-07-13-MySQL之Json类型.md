@@ -7,7 +7,7 @@ tags: 数据库 MySQL
 ---
 
 * content
-  {:toc}
+{:toc}
 
 
 MySQL 5.7 之后提供了Json类型，是MySQL 结合结构化存储和非结构化存储设计出来的一个类型。
